@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="index.xslt"?>
+<index>
+   <item>
+      <status>SUCCESSFUL</status>
+      <duration>25586</duration>
+      <path>net/homecredit/testautomation/us/eshopStory/TEst.story</path>
+      <fileName>TEst.xml</fileName>
+   </item>
+   <environmentInfo>
+      <entry>
+         <key>name</key>
+         <value>us32d2</value>
+      </entry>
+   </environmentInfo>
+</index>

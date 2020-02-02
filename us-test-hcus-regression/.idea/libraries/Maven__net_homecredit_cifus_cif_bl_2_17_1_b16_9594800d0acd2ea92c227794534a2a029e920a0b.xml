@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.homecredit.cifus:cif-bl:2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cifus/cif-bl/2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b/cif-bl-2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cifus/cif-bl/2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b/cif-bl-2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/cifus/cif-bl/2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b/cif-bl-2.17.1-b16-9594800d0acd2ea92c227794534a2a029e920a0b-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

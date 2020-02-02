@@ -1,0 +1,90 @@
+<?xml-stylesheet type="text/xsl" href="report.xslt"?>
+<story path="net/homecredit/testautomation/us/eshopStory/TEst.story" title="">
+<scenario keyword="Scenario:" title="">
+<step outcome="comment">!-- ================================================</step>
+<step outcome="comment">!-- Save values into context for following steps</step>
+<step outcome="comment">!-- ================================================</step>
+<step outcome="successful">Given save a value [https://www.czc.cz/] into a context [ESHOP_URL]</step>
+<step outcome="successful">Given save a value [Nejdražší] into a context [EXPENSIVE_GOODS_TAB_NAME]</step>
+<step outcome="successful">Given save a value [Zboží jsme vložili do košíku:] into a context [ADDED_TO_CARD_SUCCESS]</step>
+<step outcome="comment">!-- =================</step>
+<step outcome="comment">!-- Open the web page</step>
+<step outcome="comment">!-- =================</step>
+<step outcome="successful">Given open a web page with URL [ESHOP_URL]</step>
+<step outcome="comment">!-- Wait till an element is clickable</step>
+<step outcome="successful">Then wait on the page [eshop_home_page] for an element [tab_components] until is clickable</step>
+<step outcome="comment">!-- Cursor hovering</step>
+<step outcome="successful">Then on the page [eshop_home_page] hover element [tab_components]</step>
+<step outcome="comment">!-- Wait till an element is clickable</step>
+<step outcome="successful">Then wait on the page [eshop_home_page] for an element [tab_components_graph_cards] until is clickable</step>
+<step outcome="comment">!-- choose one of the categories</step>
+<step outcome="successful">When on the page [eshop_home_page] click on the element [tab_components_graph_cards]</step>
+<step outcome="comment">!-- Wait till an element is clickable</step>
+<step outcome="successful">Then wait on the page [components] for an element [biggest_price_category] until is clickable</step>
+<step outcome="comment">!-- check the name of tab, if it is correct one</step>
+<step outcome="successful">Then check on the page [components] the element [biggest_price_category] has value [EXPENSIVE_GOODS_TAB_NAME]</step>
+<step outcome="comment">!-- select filtering by the biggest price of a product</step>
+<step outcome="successful">When on the page [components] click on the element [biggest_price_category]</step>
+<step outcome="comment">!-- processing wait</step>
+<step outcome="successful">Then execution waits for <parameter>4</parameter> seconds</step>
+<step outcome="comment">!-- Wait till an element is clickable</step>
+<step outcome="successful">Then wait on the page [components] for an element [name_of_product_1] until is clickable</step>
+<step outcome="comment">!-- scroll(focus) on an element</step>
+<step outcome="successful">Then on the page [components] focus on element [name_of_product_1]</step>
+<step outcome="comment">!-- save name of first product</step>
+<step outcome="successful">Then on the page [components] save value of element [name_of_product_1] in to context [PRODUCT_NAME_1]</step>
+<step outcome="comment">!-- Wait till an element is clickable</step>
+<step outcome="successful">Then wait on the page [components] for an element [name_of_product_2] until is clickable</step>
+<step outcome="comment">!-- save name of second product</step>
+<step outcome="successful">Then on the page [components] save value of element [name_of_product_2] in to context [PRODUCT_NAME_2]</step>
+<step outcome="comment">!-- add to the cart</step>
+<step outcome="successful">When on the page [components] click on the element [add_to_cart_button_1]</step>
+<step outcome="comment">!-- wait for element</step>
+<step outcome="successful">Then wait on the page [cart_info] for an element [added_to_cart] until is clickable</step>
+<step outcome="comment">!-- the product was successfully added to the cart</step>
+<step outcome="successful">Then check on the page [cart_info] the element [added_to_cart] has value [ADDED_TO_CARD_SUCCESS]</step>
+<step outcome="comment">!-- continue with shopping</step>
+<step outcome="successful">When on the page [cart_info] click on the element [continue_button]</step>
+<step outcome="comment">!-- wait for element</step>
+<step outcome="successful">Then wait on the page [components] for an element [biggest_price_category] until is clickable</step>
+<step outcome="comment">!-- to be sure we are in the correct category, we click on that again</step>
+<step outcome="successful">When on the page [components] click on the element [biggest_price_category]</step>
+<step outcome="comment">!-- wait for element</step>
+<step outcome="successful">Then wait on the page [components] for an element [add_to_cart_button_2] until is clickable</step>
+<step outcome="comment">!-- click on the second product to add it to the cart</step>
+<step outcome="successful">When on the page [components] click on the element [add_to_cart_button_2]</step>
+<step outcome="comment">!-- wait for element</step>
+<step outcome="successful">Then wait on the page [cart_info] for an element [added_to_cart] until is clickable</step>
+<step outcome="comment">!-- the product was successfully added to the cart</step>
+<step outcome="successful">Then check on the page [cart_info] the element [added_to_cart] has value [ADDED_TO_CARD_SUCCESS]</step>
+<step outcome="comment">!-- click on the cart icon</step>
+<step outcome="successful">When on the page [eshop_home_page] click on the element [cart_icon]</step>
+<step outcome="comment">!-- wait for element</step>
+<step outcome="successful">Then wait on the page [cart_content] for an element [item_1_name] until is clickable</step>
+<step outcome="comment">!-- =======================================================================</step>
+<step outcome="comment">!-- !-- Check the name of products from components page are same as in cart</step>
+<step outcome="comment">!-- =======================================================================</step>
+<step outcome="successful">Then check on the page [cart_content] the element [item_1_name] has value [PRODUCT_NAME_1]</step>
+<step outcome="successful">Then check on the page [cart_content] the element [item_2_name] has value [PRODUCT_NAME_2]</step>
+</scenario>
+<scenarioReportExtensions>
+<errorScreenshots>
+</errorScreenshots>
+<testContext>
+</testContext>
+</scenarioReportExtensions>
+<startExecution>2020-02-02T14:59:47.622+01:00[Europe/Prague]</startExecution>
+<endExecution>2020-02-02T15:00:13.208+01:00[Europe/Prague]</endExecution>
+<duration>25586</duration>
+<status>SUCCESSFUL</status>
+<environmentInfo>
+<values><key>name</key><value><![CDATA[us32d2]]></value></values></environmentInfo>
+<ws>
+</ws>
+<rest>
+</rest>
+<stepScreenshots>
+</stepScreenshots>
+<sql>
+</sql>
+</story>

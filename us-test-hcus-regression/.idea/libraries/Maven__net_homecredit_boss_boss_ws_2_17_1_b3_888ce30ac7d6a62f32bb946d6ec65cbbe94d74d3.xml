@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.homecredit.boss:boss-ws:2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/boss/boss-ws/2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3/boss-ws-2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/boss/boss-ws/2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3/boss-ws-2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/homecredit/boss/boss-ws/2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3/boss-ws-2.17.1-b3-888ce30ac7d6a62f32bb946d6ec65cbbe94d74d3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

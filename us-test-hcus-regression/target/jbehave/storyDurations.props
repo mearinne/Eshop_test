@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Sun Feb 02 15:00:13 CET 2020
+net/homecredit/testautomation/us/eshopStory/TEst.story=25000
+threads=1
+total=25000
+threadAverage=25000

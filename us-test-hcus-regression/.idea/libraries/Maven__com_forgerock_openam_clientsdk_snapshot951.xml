@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.forgerock.openam:clientsdk:snapshot951">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/forgerock/openam/clientsdk/snapshot951/clientsdk-snapshot951.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/forgerock/openam/clientsdk/snapshot951/clientsdk-snapshot951-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/forgerock/openam/clientsdk/snapshot951/clientsdk-snapshot951-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
